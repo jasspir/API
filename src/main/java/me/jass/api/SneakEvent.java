@@ -5,7 +5,7 @@ import org.bukkit.event.Event;
 import org.bukkit.event.HandlerList;
 
 public class SneakEvent extends Event implements Cancellable {
-    private static HandlerList handlers;
+    private static final HandlerList handlers;
     private boolean cancelled;
     private boolean sneaking;
 
